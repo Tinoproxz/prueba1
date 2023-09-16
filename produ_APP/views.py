@@ -13,5 +13,5 @@ def juguete(request):
     return render (request,'webappp/producto.html',data)
 
 def ropa(request):
-    data= {"titulo": "ropa122222"}   
+    data= {"titulo": "ropa"}   
     return render (request,'webappp/producto.html',data)
